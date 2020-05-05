@@ -1,0 +1,870 @@
+﻿body{
+    font-family: "Neo Sans Pro";
+}
+/* body::before{
+
+} */
+.container{
+    margin: auto;
+    padding: 0;
+    width: 1680px;
+    height: auto;
+    margin-bottom: -107px;
+}
+.center{
+    text-align: center;
+}
+
+
+/* HEADER++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+header{
+    margin: auto;
+    margin-top: 0px;
+    padding: 0px;
+    background-image: url(../img/header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: contain; */
+    height: 1093px;
+} 
+ .container-menu{
+    width: 1680px;
+}
+.menu{
+    margin-left: 122px;
+    padding-top: 167px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-block{
+    color: white;
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+}
+.lang{
+/* Style for "RU" */
+color: #ffffff;
+font-size: 20px;
+font-weight: 400;
+line-height: 45px;
+text-transform: uppercase;
+
+}
+.lang-img{
+    margin-top: -9px;
+    margin-left: 8px;
+    margin-right: 37px;
+}
+.callback{
+/* Style for "Прямоуголь" */
+width: 243px;
+height: 60px;
+border: 2px solid #ffffff;
+/* Style for "Свяжитесь" */
+font-size: 20px;
+font-weight: 400;
+line-height: 60px;
+text-align: center;
+cursor: pointer;
+margin-right: 39px;
+}
+.callback-text{
+    width: 300px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.faq{
+    /* Style for "FAQ" */
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 80px;
+    margin-right: 49px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 41px;
+}
+.social{
+    align-items: center;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.social a{
+    margin-left: 11px;
+}
+.social span{
+    /* Style for "Следите за" */
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 80px;
+}
+.cont h1{
+    /* Style for "Эффективны" */
+color: #ffffff;
+font-size: 40px;
+font-weight: 700;
+line-height: 50px;
+margin-bottom: 45px;
+margin-top: 228px;
+padding-left: 31px;
+position: relative;
+margin-left: 124px;
+}
+.cont h1 span{
+/* Text style for "Эффективны" */
+color: #eb0918;
+}
+.cont h1:before{
+    content: "";
+    /* Style for "Прямоуголь" */
+    width: 4px;
+    height: 140px;
+    background-color: #e3000f;
+    position: absolute;
+    left: 0px;
+    top: 8px;
+}
+.video{
+    height: 60px;    
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 154px;
+}
+.video img{
+    height: 60px;
+    width: 60px;
+}
+.video span{
+    /* Style for "Смотреть в" */
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 80px;
+    margin-left: 22px;
+}
+/* SECTION1++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+h2{
+    /* Style for "Наша экспе" */
+    color: #004389;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 72px;
+    margin-bottom: 54px;
+    margin-top: 182px;
+}
+h2 span{
+    /* Text style for "Н, аша" */
+    color: #e3000f;
+}
+.bx-wrapper {
+    border: none;
+    box-shadow: none;
+    background: #fff;
+}
+
+.bx-wrapper {
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 0px;
+    padding: 0;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+}   
+.mt{
+    margin-top: 19px;
+}
+.mb{
+    margin-bottom: -15px;
+}
+.slide  p{
+    /* Style for "ПРОФЕССИОН" */
+    color: #333333;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 21px 0 0px
+}
+/* <!-- ПРОБЛЕММЫ И РЕШЕНИЯ++++++++++++++++++++++++++++++++++++++++++++++++ --> */
+.sec2 .container{
+    padding-top: 27px;
+    width: 1579px;
+    /* border: 1px solid green; */
+    position: relative;
+    height: auto;
+}
+.sec2 .container::before{
+    background-image: url(../img/before_s2.png);
+    width: 326px;
+    height: 298px;
+    content: '';
+    position: absolute;
+    top: 73px;
+    right: -23px;
+}
+.desc{
+    /* Style for "Нажмите на" */
+color: #333333;
+font-size: 24px;
+font-weight: 400;
+margin-top: -40px;
+margin-bottom: 56px;
+}
+/* АККОРДИОН */
+ 
+.drop_block .panel{
+    border: none;
+    border-bottom: 1px solid #e1e1e1;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35.96px;
+    margin: 0;
+    padding-left: 99px;
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+
+.panel-body{
+    padding: 30px 0 10px 85px;
+    position: relative;
+}
+.panel-body::before{
+    position: absolute;
+    content: '';
+    background-image: url(../img/check.svg);
+    width: 30px;
+    height: 30px;
+    /* top: 0; */
+    left: 41px;
+    align-items: center;
+
+
+}
+
+h4 a{
+       text-decoration: none;
+       color: #333333;
+       font-family: "Neo Sans Pro";
+       font-size: 24px;
+       font-weight: 400;
+       line-height: 35.96px;
+       position: relative;
+}
+ 
+h4 a:before{
+    position: absolute;
+    content: '';
+    background-image: url(../img/listdown.svg);
+    transform: rotate(0deg); 
+    width: 27px;
+    height: 27px;
+    background-repeat: no-repeat;
+    top: 6px;
+    left: -74px;
+}
+h4 a.collapsed:before{
+    background-image: url(../img/list.svg);
+    /* transform: rotate(-90deg); */
+    }
+h4 a:hover{
+    text-decoration: none;
+   }
+/* <!-- КАК МЫ РАБОТАЕМ++++++++++++++++++++++++++++++++++++++++++++++++ --> */
+.sec3{
+    background-image: url(../img/sec3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 917px;
+    margin-top: 195px;
+    padding-top: 379px;
+    /* border: 1px solid green; */
+    margin-bottom: 13px;
+}
+.block{
+    padding-left: 37px;
+    position: relative;
+}
+.block:before{
+    content: '';
+    position: absolute;
+    background-image: url(../img/sec3_vertical_line.png);
+    width: 4px;
+    height: 170px;
+    top: 1px;
+    left: 13px;
+}
+
+
+.block .t1{
+    /* Style for "Как мы раб" */
+font-size: 40px;
+font-weight: 700;
+line-height: 72px;
+color: #ffffff;
+}
+.block .t1 span{
+    color: #eb0a19;
+}
+.block .t2{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 8px;
+}
+.video_sec3{
+    height: 60px;    
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 35px;
+    margin-top: 64px;
+}
+.video_sec3 img{
+    height: 60px;
+    width: 60px;
+}
+.video_sec3 span{
+    /* Style for "Смотреть в" */
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 80px;
+    margin-left: 17px;
+}
+/* <!--Этапы нашей работы+++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> */
+.sec4{
+    position: relative;
+}
+.block4 .item img:hover{
+    transition: 0.3s;
+    transform: scale(1.15);
+}
+.sec4::before{
+    position: absolute;
+    content: '';
+    background-image: url(../img/sec4before.png);
+    width: 1650px;
+    height: 410px;
+    margin-left: -825px;
+    background-repeat: no-repeat;
+    top: -139px;
+    left: 50%;
+}
+.sec4 .container{
+    width: 1056px;
+    height: auto;
+}
+
+.block4{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.block4 .item{
+    width: 195px;
+    position: relative;
+    text-align: center;
+}
+.block4 .item::before{
+    background-image: url(../img/long_right.svg);
+    content: '';
+    position: absolute;
+    top: 76px;
+    right: -86px;
+    width: 86px;
+    height: 31px;
+}
+.bleft::before{
+    transform: rotate(180deg);
+}
+.block4 p{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 7px;
+}
+.sec4 h2{
+    margin-bottom: 61px;
+}
+.block4 .sr::before{
+    background-image: url(../img/sright.svg);
+    width: 17px;
+    right: -16px;
+    top: 72px;
+}
+.block4 .sl::before{
+    background-image: url(../img/sright.svg);
+    width: 17px;
+    right: -14px;
+    top: 77px;
+    transform: rotate(180deg);
+}
+/* <!--Теперь то же самое, только в цифрах+++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> */
+.sec5{
+    margin-top: 70px;
+}
+.sec5 .container{
+    max-width: 1686px;
+}
+
+.block5{
+    width: 1153px;
+    margin: 59px auto 0;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.block5 .item .t1{
+    background-repeat: no-repeat;
+    width: 216px;
+    height: 216px;
+    align-items: center;
+}
+.block5 .item .t1{
+    margin-left: 20px;
+    color: #004389;
+    font-size: 74px;
+    font-weight: 500;
+    line-height: 216px;
+    text-align: center;
+}
+.block5 .item .it1{
+    background-image: url(../img/item51.png);
+    margin-left: 33px;
+}
+.block5 .item .it2{
+    background-image: url(../img/item52.png);
+    margin-left: 55px;
+}
+.block5 .item .it3{
+    background-image: url(../img/item53.png);
+    margin-left: 41px;
+}
+.sec5 .item p{
+    margin-top: 10px;
+    color: #333333;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 72px;
+}
+/* ФОРМА ===========================================================================================================*/
+.form_block{
+    margin-top: 204px;
+}
+.form_block form{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 27px;
+}
+.form_block .t1{
+    line-height: 40px;
+    color: #004389;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.form_block .t2{
+    font-weight: 400;
+    color: #333333;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.in_block{
+    width: 410px;
+}
+.in_block input{
+    height: 60px;
+    border: none;
+    border-bottom: 2px solid #959595;
+    padding-left: 70px;
+    line-height: 60px;
+    width: 100%;
+
+    color: #333333;
+    font-family: "Neo Sans Pro";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+
+    background-position: 25px center;
+    background-repeat: no-repeat;
+}
+form .in_button{
+width: 389px;
+
+}
+form .in_button button{
+    width: 100%;
+    border: none;
+    height: 60px;
+    background-color: #004389;
+    /* Style for "Отправить" */
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+form .in_block .name{
+    background-image: url(../img/form1.svg);
+}
+form .in_block .phone{
+    background-image: url(../img/form2.svg);
+}
+form .in_block .email{
+    background-image: url(../img/form3.svg);
+}
+/* +++++++++++++++++++++++++++++++++++++++++++++++Slider6+++++++++++++++++++++++++++++ */
+.sec6{
+    margin-top: 157px;
+}
+.sec6 .container{
+    /* Style for "Прямоуголь" */
+    width: 1430px;
+    padding: 0px;
+    text-align: center;
+}
+.sec6 .bx-wrapper{
+    max-width: 100%!important;
+}
+.sec6 .bx-wrapper .bx-prev {
+    width: 57px;
+    height: 57px;
+    top: 273px;
+    left: -80px;
+    background-image: url('../img/s1left.png');
+   }
+.sec6 .bx-wrapper .bx-next {
+    top: 276px;
+    right: -84px;
+    background-image: url('../img/s1right.png');
+    width: 57px;
+    height: 57px; 
+}
+.sec6 .bx-viewport{
+    padding: 0 19px;
+    height: 540px!important;
+}
+.block6{
+    margin-top: 82px;
+}
+.item6{
+    position: relative;
+    width: 424px;
+    height: 456px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    padding: 84px 38px 45px 33px;
+    box-sizing: border-box;
+}
+.item6 p{
+    /* Style for "Lorem ipsu" */
+    color: #333333;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    font-weight: 400;
+}
+.item6 a{
+    position: absolute;
+    top: 386px;
+    left: 34px;
+    font-size: 20px;
+    color: #004389;
+    font-weight: 500;
+}
+.item6 img{
+    position: absolute;
+    width: 158px;
+    height: 158px;
+    top: -76px;
+    left: 38px
+}
+.slider6{
+    padding-top: 60px;
+}
+.sec6_button{
+    margin-top: -42px;
+}
+.sec6_button button{
+    text-align: center;
+    border: none;
+    width: 340px;
+    height: 60px;
+    background-color: #004389;
+    /* Style for "Смотреть в" */
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 57px;
+
+}
+.sec6_button img{
+    margin-left: 15px;
+}
+/* <!--Наши друзья, клиенты и партнеры+++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> */
+.sec7{
+    margin-top: 154px;
+}
+
+.sec7 .container{
+    max-width: 1302px;
+}
+.sec7 h2{
+    margin-bottom: 91px;
+}
+.sec7 .bx-wrapper .bx-prev {
+    top: 95px;
+    left: -147px;
+    width: 57px;
+    height: 57px; 
+    background-image: url('../img/s1left.png');
+   }
+.sec7 .bx-wrapper .bx-next {
+    top: 95px;
+    right: -149px;
+    background-image: url('../img/s1right.png');
+    width: 57px;
+    height: 57px; 
+}
+/* <!--Часто задаваемые вопросы+++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> */
+.sec8{
+    margin-top: 58px;
+}
+.sec8 .container{
+    max-width: 1684px;
+    /* border: 1px solid green; */
+}
+.sec8 h2{
+    margin-bottom: 50px;
+}
+.sec8 .desc{
+        /* Style for "Кликайте н" */
+        color: #333333;
+        font-size: 24px;
+        font-weight: 400;
+
+}
+.block8{
+    /* display: -webkit-box;
+    display: -ms-flexbox; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.left_block{
+    width: 707px;
+}
+.right_block{
+    width: 900px;
+
+}
+.cont_block{
+    border-left: 4px solid #e3000f;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+.cont_block p{
+    color: #333333;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.left_block{
+    width: 707px;
+    color: #333333;
+    font-size: 24px;
+    font-weight: 400;
+    /* Text style for "у агентств" */
+    line-height: 29.96px;
+}
+.left_block .list{
+    margin-top: 1px;
+    border-bottom: 2px solid #e1e1e1;
+    padding: 27px 0;
+    padding-left: 100px;
+    cursor: pointer;
+    position: relative;
+}
+.left_block .list::before{
+    position: absolute;
+    content: '';
+    width: 27px;
+    height: 17px;
+    top: 34px;
+    left: 27px;
+    background-image: url(../img/sec8down.svg);
+}
+.left_block .list:last-child{
+    border-bottom: none;
+}
+.list.active::before{
+    position: absolute;
+    content: '';
+    background-image: url(../img/sec8right.svg);
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 26px;
+    top: 26px;
+    left: 33px;
+}
+/* ==========Footer================++++++++++++++++++++++++ */
+footer{
+    width: auto;
+    margin-top: 568px;
+    position: relative;
+}
+footer .container{
+    width: 1681px;
+    padding: 0;
+
+}
+footer::before{
+    z-index: 0;
+    background-repeat: no-repeat;
+    position: absolute;
+    content: '';
+    background-image: url('../img/footer.png');
+    background-position: center;
+    width: 100%;
+    height: 850px;
+    bottom: 0;
+}
+.footer_block{
+    height: 50px;
+    align-items: center;
+    bottom: 63px;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-bottom: 20px;
+}
+.yourik{
+    margin-left: 110px;
+    margin-right: 92px;
+    margin-bottom: 7px;
+}
+.yourik a{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.contact span{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.contact .c2{
+    margin-left: 27px;
+}
+.social_footer{
+    width: 127px;
+    height: 50px;
+    margin-left: 73px;
+    top: 10px;
+    left: 10px;
+}
+.social_footer .s1{
+    margin: 0;
+}
+.social_footer .s2{
+    margin-left: 23px;
+}
+.totop{
+margin-left: 165px; 
+position: relative;
+top: -20px;
+}
+/*++++++++++++++++++++++++ Модальное окно */
+.modal-content{
+    width: 553px;
+    height: 690px;
+    box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    padding-right: 68px;
+    padding-top: 85px;
+    padding-left: 68px;
+    padding-bottom: 85px;
+}
+.modal-header{
+    padding: 0;
+    border-bottom: none;
+}
+
+.modal-body{
+    padding: 0;
+}
+.modal-body form .in_block{
+    margin-bottom: 14px;
+    width: 419px;
+    height: 60px;
+}
+.modal-body form .in_button{
+    width: 100%;
+}
+.modal-body form .in_button button{
+    width: 420px;
+    border: none;
+    height: 60px;
+    background-color: #004389;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 20px;
+}
+
+.modal-body form .in_block .name{
+    background-image: url(../img/form1.svg);
+}
+.modal-body form .in_block .phone{
+    background-image: url(../img/form2.svg);
+}
+.modal-body form .in_block .email{
+    background-image: url(../img/form3.svg);
+}
+.modal-title{
+    color: #004389;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.subtitle{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.close{
+    position: absolute;
+    top: 43px;
+    right: 47px;
+}
+
+
+
+
+
