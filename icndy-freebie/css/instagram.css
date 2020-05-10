@@ -1,0 +1,76 @@
+.instagram{
+    margin-top: 40px;
+    background: url(../img/instagramm_bg.png) center top no-repeat #000000;
+    background-size: cover;
+    height: auto;
+}
+.inst_info .inst_title{
+    /* margin-top: 250px; */
+
+    padding-top: 21%;
+    color: #ffffff;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: "Proxima Nova Lt";
+    font-weight: 300;
+    letter-spacing: 36px;
+    line-height: 70px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.inst_info p{
+    text-align: center;
+    /* margin-bottom: 244px; */
+    padding-bottom: 21%;
+}
+.inst_info .inst_title2{
+    color: #f84545;
+    font-family: "Proxima Nova Rg";
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 12px;
+    line-height: 75px;
+    /* transition-duration: 500ms; */
+    transition: 0.5s;
+    text-decoration: none;
+    /* transition-property: letter-spacing; */
+}
+.inst_info .inst_title2:hover{
+    letter-spacing: 15px;
+    text-decoration: none;
+    }
+
+
+    @media (max-width: 1280px){
+        .inst_info .inst_title{
+            font-size: 40px;
+            font-weight: 300;
+            letter-spacing: 9px;
+            line-height: 40px;
+        }
+        .inst_info .inst_title2{
+            font-size: 30px;
+            font-weight: 700;
+            letter-spacing: 6px;
+            line-height: 60px;
+
+        }
+
+    }
+
+    @media (max-width: 780px){
+        .inst_info .inst_title{
+            font-size: 30px;
+            font-weight: 300;
+            letter-spacing: 9px;
+            line-height: 40px;
+        }
+        .inst_info .inst_title2{
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: 6px;
+            line-height: 60px;
+        }
+    }
+    
+    

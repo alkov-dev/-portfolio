@@ -1,0 +1,26 @@
+@import url("../fonts/fonts.css");
+@import url("header.css");
+@import url("menu.css");
+@import url("burger.css");
+@import url("content.css");
+@import url("instagram.css");
+@import url("footer.css");
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    color: black;
+}
+.header{
+    text-align: center;
+    height: auto;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1500px;
+    padding: 0 15px;
+}
+

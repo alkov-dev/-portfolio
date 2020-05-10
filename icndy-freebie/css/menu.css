@@ -1,0 +1,94 @@
+.header_top{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_logo img{
+    width: 224px;
+    height: 90px;
+}
+
+.menu_list{
+    width: 708px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    /* padding-top: 27px; */
+    text-decoration: none;
+    align-items: center;
+}
+.menu_link{
+    list-style: none;
+    text-decoration: none;
+color: #ffffff;
+font-family: "Proxima Nova - Semibold";
+font-size: 18px;
+font-weight: 400;
+line-height: 40px;
+text-transform: uppercase;
+/* Text style for "MENS, WOME" */
+letter-spacing: 7.88px;
+/* Text style for ", SALE" */
+transition: 0.2s;
+}
+.menu_link:hover{
+    color: #f84545;
+}
+/* ======BURGER====
+.burger_item{
+    display: none;
+}
+.burger{
+    display: block;
+    width: 30px;
+    height: 5px;
+    background-color: white;
+    position: relative;
+}
+.burger::before,
+.burger::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    left: 0;
+    position: absolute;
+}
+.burger::before{
+    top: -10px;
+}
+.burger::after{
+    bottom: -10px;
+} */
+
+
+@media (max-width: 1280px){
+    .menu_list{
+        width: 508px;
+    }
+    .menu_link{
+        letter-spacing: 3px;
+    }
+}
+@media (max-width: 980px){
+    .menu_list{
+        width: 408px;
+    }
+    .menu_link{
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+}
+
+@media (max-width: 660px){
+    .header_top{
+        display: flex;
+        justify-content: space-between;
+    }
+    /* .header_menu{
+        display: none;
+    } */
+    
+}

@@ -1,0 +1,103 @@
+.header{
+    background-image: url(../img/header_bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.header_info .title{
+    /* margin-top: 250px; */
+    margin-top: 16.4%;
+color: #ffffff;
+font-size: 60px;
+text-transform: uppercase;
+font-family: "Proxima Nova Lt";
+font-weight: 300;
+letter-spacing: 36px;
+line-height: 70px;
+text-align: center;
+margin-bottom: 10px;
+}
+.header_info p{
+    text-align: center;
+    /* margin-bottom: 244px; */
+    margin-bottom: 16.5%;
+
+}
+.header_info .title2{
+
+color: #f84545;
+font-family: "Proxima Nova Rg";
+font-size: 30px;
+font-weight: 700;
+letter-spacing: 12px;
+line-height: 75px;
+/* transition-duration: 500ms; */
+transition: 0.5s;
+text-decoration: none;
+/* transition-property: letter-spacing; */
+}
+.header_info .title2:hover{
+    letter-spacing: 15px;
+    text-decoration: none;
+    }
+.header_btn_img{
+    width: 84px;
+    height: 42px;
+    /* ===Чтобы выровнять картинку по центру==== */
+    /* display: block; */
+    margin: 0 auto;
+    margin-bottom: 66px;
+    /* =========================================== */
+    cursor: pointer;
+}
+/* ==================Button================= */
+.header_btn{
+    margin-bottom: 70px;
+    animation-name: animateArrow;
+    animation-duration: 1s;
+    /* besconechno */
+    animation-iteration-count: infinite;
+}
+@keyframes animateArrow{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(25px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+
+@media (max-width: 1280px){
+    .header_info .title{
+        margin-top: 16.4%;
+        font-size: 50px;
+        font-weight: 300;
+        letter-spacing: 18px;
+        line-height: 60px;
+    }
+    .header_btn_img{
+        width: 42px;
+        height: 21px;
+        /* ===Чтобы выровнять картинку по центру==== */
+        /* display: block; */
+        margin: 0 auto;
+        margin-bottom: 66px;
+        /* =========================================== */
+        cursor: pointer;
+    }
+}
+@media (max-width: 780px){
+    .header_logo a img{
+        margin-left: 20px;
+        width: 150px;
+        height: auto;
+    }
+}
+
