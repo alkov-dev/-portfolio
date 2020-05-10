@@ -24,7 +24,6 @@ HEADER.............................................................
     background-size: cover;
 /* растягиваем изображение на высоту экрана */
     height: 100vh;
-
 }
 .header_block{
     display: flex;
@@ -53,11 +52,28 @@ HEADER.............................................................
 }  
 .header_block img{
     /* margin-top: 192px; */
-    width: 28px;
-    height: 16px;
+    width: 60px;
     cursor: pointer;
     margin-top: 80vh;
     position: absolute;
+}
+.header_down{
+    width: 100px;
+    animation-name: animateArrow;
+    animation-duration: 1s;
+    /* besconechno */
+    animation-iteration-count: infinite;
+}
+@keyframes animateArrow{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(15px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
 }
 @media (max-width: 1024px) {
     /* .header_down img{ */
@@ -275,3 +291,42 @@ FOOTER.............................................................
     }
 
 
+/* ======================Анимация================
+ */
+ 
+.section--purple {
+
+    height: 300px;
+    width: 500px;
+    margin: 160px 0;
+    background-color: #9b59b6;
+  }
+  
+  .section--blue {
+    height: 300px;
+    width: 500px;
+    margin: 60px 0;
+    background-color: #3498db;
+  }
+  
+  .section--green {
+    height: 300px;
+    width: 500px;
+    margin: 60px 0;
+    background-color: #2ecc71;
+  }
+  
+  #main {
+    height: 300px;
+    width: 500px;
+    margin: 60px 0;
+    text-align: center;
+  }
+  
+  #more {
+    height: 300px;
+    width: 500px;
+    margin: 60px 0;
+    margin: 20px auto 48px;
+  }
+  
